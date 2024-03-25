@@ -61,7 +61,8 @@ console.log(typeof true);
 
 document.getElementById('first').innerHTML = 'Hello TFN'
 console.log(1);
-
+console.log(2);
+console.log(3);
 
 
 
