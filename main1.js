@@ -64,6 +64,14 @@ console.log(1);
 console.log(2);
 console.log(3);
 
+console.log(12 + ' декабрь');
+console.log('Добро'+ ' пожаловать'+' на'+' курс'+' Евгения');
+// alert('20.03.2024')
+document.getElementById('first').innerHTML = 'Hello World'
+
+
+
+
 
 
 
