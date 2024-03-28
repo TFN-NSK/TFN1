@@ -91,17 +91,160 @@
 //     inp.value = ''
 // }
 
-let a = prompt('Сколько у тебя денег?')
-// console.log(a);
+// let a = prompt('Сколько у тебя денег?')
+// // console.log(a);
 
-if(a>100){
-    alert('yes')
+// if(a>100){
+//     alert('yes')
+// }
+// else{
+//     console.log('no')
+// }
+
+//lesson 4
+// let a = prompt('В каком году вышел ходячий замок?')
+
+// if(a<2004){
+//     console.log('Рано');
+// }
+// else if (a>2005) {
+//     console.log('Поздно')
+// }
+// else{
+//     console.log('Верно');
+// }
+// let a = 10
+
+// if (a==5){
+//     console.log(1);
+// }
+// else if (a>6){
+//     console.log(2);
+// }
+// else if (a>7) {
+//     console.log(5);
+// }
+// else{
+//     console.log(3);
+// }
+
+//? Тернарный оператор
+
+// let day = prompt('Сколько дней в неделе?')
+// let week;
+// if(day == 7){
+//     week = true;
+// }
+// else{
+//     week = false;
+// }
+// console.log(week);
+
+//            if      (    ) else  
+// let week = day ==7 ? true        : false
+
+// console.log(week);
+
+// let number = 3;
+
+// if(number > 0){
+//     console.log('Число положительное');
+// }
+// else if(number < 0){
+//     console.log('Число отрицательное');
+// }
+// else{
+//     console.log('Число равно 0');
+// }
+// let age = 22;
+// if(age>18){
+//     console.log('доступ разрешен');
+// }
+// else{
+//     console.log('доступ запрещен');
+// }
+
+// +
+// -
+// *
+// /
+// % Взятие остатка
+// ** Возведение в степень
+
+// console.log(2**2);
+// let num = 20
+// if (num % 2 ==0){
+//     console.log('Число четное');
+// }
+// console.log(8**5);
+// console.log(201%5);
+
+// >
+// <
+// ==
+// ===
+// >=
+// <=
+// !=
+
+// console.log(10!=10);
+// console.log('qwe'>='qwe');
+// console.log(true == 1);
+
+// операторы ИЛИ ||
+
+// True || True = TRUE
+// False || True = TRUE
+// TRUE || FALSE = TRUE
+// FALSE || FALSE = FALSE
+
+// let a = 10
+// let b = 5
+// if(a > 20 || b > 3){
+//     console.log(555);
+// }
+
+// Оператор И &&
+
+// True && ture = true
+// false && true = false
+// True && false = false
+// False && false = false
+
+// let a = 10
+// let b = 5
+// if(a > 1 && b > 3){
+//     console.log(555);
+// }
+
+// Оператор отрицания (всегда выводит противоположные значения) !
+// console.log(!false);
+
+//ДЗ задача 1
+
+// let a = 10
+// let b = 7
+// if(a + b > 15){
+//     console.log('Yes');
+// }
+// else if (a + b <= 15) {
+//     console.log('NO');
+// }
+// else{
+//     console.log('NO');
+// }
+
+// ДЗ задача 2
+
+let a = 5
+let b = '5'
+if(a == b){
+    console.log('равны');
+    console.log(true);
 }
 else{
-    console.log('no')
+    console.log(false);
 }
-
-
   
     
 
