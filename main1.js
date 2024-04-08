@@ -313,22 +313,167 @@
 //     }
 // }
 
+// макет конструкции swith case
+// switch(x){
+//     case 'значение 1': // аналог if(x === 'значение 1')
+//     ....
+//     [break]
+//     case 'значение 2': // аналог if(x === 'значение 2')
+//     ....
+//     [break]
 
+//     default: // аналог else
+//     ....
+// }
 
+// let a = 5 + 5;
+
+// switch(a){
+//     case 5:
+//         alert(1)
+//     case 10:
+//         alert(2)
+//         break
+//     case 15:
+//         alert(3)
+//         break
+//     default:
+//         alert(4)    
+// }
+
+// // 
+// let a ='1'
+// let b = 0;
+// console.log(typeof +a);
+
+// switch(+a){
+//     case b + 1:
+//         alert('Выполнится, т.к.значение +а будет числовым что равно числовой единице')
+//     break
+//     default:
+//         alert('Это не выполнится')
+// }    
+// Это группировка кейсов
+// let a = 10
+
+// switch(a){
+//     case 12:
+//         alert ('правильно')
+//     break
+//     case 5: // группируем два кейса
+//     case 10:
+//         alert('не правильно')
+//         alert('Может тебе взять курс по матану')
+//     break
+
+//     default:
+//         alert('результат кривой')
+// }
+
+// Проверка на равенство
+
+// let arg = prompt('Введте число')
+
+// switch(arg){
+//     case '0':
+//     case '1':
+//         alert('Один или ноль')
+//     break
+
+//     case '2':
+//         alert('Два')
+//         break
+
+//     case 3:   //всегда должно быть в таком же формате, т.е. '3'
+//         alert('Никогда не выполнится')
+//         break
+//     default:
+//         alert('Значение не известно')
+
+// }
+
+// Оператор нулевого слияния ??
+
+// let firstname = null
+// let lastname = null
+// let nickname = 'Evgeniya123'
+
+// // покажет первое определенное значение
+// alert(firstname?? lastname?? nickname?? 'Anonim')
+
+// оператор или возвращает первое истинное значение
+// alert(firstname || lastname || nickname || 'Anonim')
+
+// оператор или возвращает первое истинное значение
+// оператор ?? возвращает первое значение, которое определено
+
+// ДЗ к 6му уроку
+
+// Задача 3
+
+// let firstname = null
+// let lastname = 'Isaeva'
+// let nickname = 'Evgeniya123'
+
+// alert(firstname ?? lastname?? nickname?? 'Anonim')
+
+// Задача 2
+
+// let arg = prompt('Введте число')
+
+// switch(arg){
+//     case '1':
+//     case '2':
+//     case '3':
+//         alert('Зима')
+//     break
+
+//     case '4':
+//     case '5':
+//     case '6':
+//         alert('Весна')
+//     break
     
+//     case '7':
+//     case '8':
+//     case '9':
+//         alert('Лето')
+//     break
 
+//     case '10':
+//     case '11':
+//     case '12':
+//         alert('Осень')
+//     break
+//     default:
+//         alert('Значение не известно')
 
+// }
 
+// Задача 1
 
+//  let b = prompt('введите число')
 
+//  switch(b){
+//         case '11':
+//             alert ('мало')
+//         break
+//         case '17':
+//             alert ('много')
+//         break
+//         case '15':
+//             alert ('верно')
+//         break
+//     default:
+//             alert('не подходит значение')
+//         }
+let a = 15 + 5
+switch(a){
+    case '20':
+        alert ('правильно')
+        break
 
-
-
-
-
-
-
-
-
-
+    default:
+        alert('неправильно')
+}
 
