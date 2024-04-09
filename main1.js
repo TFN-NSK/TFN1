@@ -467,13 +467,127 @@
 //     default:
 //             alert('не подходит значение')
 //         }
-let a = 15 + 5
-switch(a){
-    case '20':
-        alert ('правильно')
-        break
+// let a = 15 + 5
+// switch(a){
+//     case '20':
+//         alert ('правильно')
+//         break
 
-    default:
-        alert('неправильно')
-}
+//     default:
+//         alert('неправильно')
+// }
 
+// Функции
+// Первый вариант вызова функции
+// function one(){ 
+//     //в фигурных скобках пишется тело функции
+//     console.log('Наша первая функция');
+//     // alert(123)
+//     // let a = prompt('Сколько тебе лет?')
+// }
+// one()
+
+// 2 вариант вызова функции это вызов по клику
+// let btn = document.querySelector('.btn')
+
+// function one(){
+//     // console.log('Функция вызвана по клику');
+//     let qwe = document.querySelector('.qwe')
+//     let age = prompt('Сколько тебе лет?')
+//     if(age < 18){
+//        qwe.innerHTML = '<h1>Ты не достиг определенного возраста</h1>'
+       
+//     }else{
+//         qwe.innerHTML = '<h1>Welcome</h1>'
+//     }
+// }
+// btn.onclick = one
+
+// function borsch(){
+    //....некий ряд команд
+//     Поставить кострюлю
+//     Воды налить
+//     Включить плиту
+//     Положить мясо
+//     Нарезать капусту
+//     Нарезать картошку
+// }
+
+// function one(){
+//     console.log('func');
+//     return 666
+// }
+
+// let a = 8;
+// let b = 9;
+
+// function multiply(){
+//     console.log(a * b);
+//     return a * b
+// }
+// console.log(multiply() * 9);
+
+// let a = prompt('Ваше имя?')
+// function one(Tim){
+//     let qwe = document.querySelector('.qwe')
+//     qwe.innerHTML = 'Привет (Jeny)'
+// }
+
+// one(a)
+
+// function one(x,y){
+//     return x * y * 2
+// }
+// console.log(one(2,3));
+
+// Анонимные функции
+// let btn = document.querySelector('.btn')
+
+// btn.onclick = function(){
+//     console.log('Эта функция у нас анонимная');
+// // }
+
+//  функция declaration
+
+// function one(){
+// console.log(123);
+// }
+// one()
+
+// функция expression
+
+// let a = function(){
+//     console.log(2);
+// }
+// a()
+
+// // Стрелочная функция
+// let b = () =>{
+//     console.log(3);
+// }
+// b()
+
+// Домашняя работа урок 7
+//Задача 1
+// let btn = document.querySelector('.btn')
+
+// function one(){
+//     let qwe = document.querySelector('.qwe')
+//     let A = prompt('{Какая грузоподъемность тебе нужна?}')
+//     if(A < 10){
+//        qwe.innerHTML = '<h1>Позвони нам по телефону</h1>'
+       
+//     }else{
+//         qwe.innerHTML = '<h1>Мы позвоним тебе</h1>'
+//     }
+//     }
+// btn.onclick = one
+
+// Задача 2
+
+// let btn = document.querySelector('.btn 1')
+// function one(){
+//     let asd = document.querySelector('.asd')
+//     let a = input.value
+// }
+// one()
