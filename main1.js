@@ -584,10 +584,127 @@
 // btn.onclick = one
 
 // Задача 2
+// let asd = document.querySelector('.asd')
+// let a = input.value
 
-// let btn = document.querySelector('.btn 1')
+// let btn = document.querySelector('.btn1')
 // function one(){
-//     let asd = document.querySelector('.asd')
-//     let a = input.value
+    
 // }
-// one()
+// btn.onclick = one
+// let asd = document.querySelector('.asd')
+
+// function calculate(op){
+// let num1 = parseFloat(document.querySelector('.text1').value)
+// let num2 = parseFloat(document.querySelector('.text2').value)
+//     console.log(num1);
+//     console.log(num2);
+//     let resalt
+//     switch(op){
+//         case "+":
+//             resalt = num1 + num2
+//             console.log(resalt);
+//             break
+//         case"-":
+//         resalt = num1 - num2
+//         break
+//         case"*":
+//         resalt = num1 * num2
+//         break
+//         case"/":
+//         if(num1 == 0){
+//             alert("на ноль делить нельзя")
+//             break
+//         }
+//         else{resalt = num1 / num2
+//         break}  
+//     }
+//     asd.innerHTML = resalt
+//     console.log(resalt);
+//     }
+    
+// Lesson 8
+// DOM
+
+// const one = document.querySelector('.one')
+// one.style.color = 'red'
+// //CamelCase
+
+// one.style.paddingLeft = '150px'
+// console.log(one.style);
+// one.classList.add('black')
+// one.classList.add('textt')
+// one.classList.remove('black')
+
+// let btn = document.querySelector('.btn')
+// let bodyy = document.querySelector('body')
+// btn.onclick = function(){
+//     this.classList.toggle('black')
+//     bodyy.classList.toggle('bodyy')
+// }
+// const one = document.querySelector('.one')
+// one.setAttribute('data-num, 6')
+
+// let genre = document.querySelectorAll('.genre')
+// let one = document.querySelector('.one')
+// for(let i = 0; i< genre.leight; i++){
+//     genre[i].onclick = function(){
+//         let shop = document.querySelector('.shop').value
+//         let price = this.getAttribute('data')
+//        one.innerHTML = <h2>Цена ваших книг ${shop * price} рублей</h2>
+//     }
+// }
+
+// 9 урок 
+//Массивы
+
+// let a = 'Роберт'
+// let b = 'Братеон'
+// let c = 60
+
+//     //индексы 0      1        2
+// let qwe = ['Роберт','Братеон',60,90,100,true]
+// console.log(qwe[qwe.length-1]);
+
+//массив с нулевым значением
+// let e = []
+// console.log(e);
+
+// let a = [1,2,3,4,5,6,7,8]
+// const b = ['a','b','c','d']
+
+// console.log(a.lenght);
+// a.push(9,10,12,13,14,)
+// console.log(a.lenght);
+// console.log(a);
+
+// console.log(b);
+// b.push('Evgesha')
+// console.log(b);
+
+// b.pop()
+// b.splice(5,0,'Ничего себе это работает')
+// console.log(b);
+
+// let a = [1,2,3,4,5]
+
+// let b = [
+//     [1,2,3,],
+//     [4,5,6],
+//     [7,8,9]
+// ]
+// // console.log(b);
+// // // console.log(b[0][0]);
+
+// // for(let i = 0; i<b.length; i++){
+// //     // console.log(b[i]);
+// //     let c = b[i] // c - массив [1,2,3]
+// //     for(let k = 0; c.length> k;k++){
+// //         console.log(c[k]);
+// //     }
+// // }
+// for(let i = 0; i<b.length; i++){
+//         for(let j = 0; b[i].length> j;j++){
+//             console.log(b[i][j]);
+//         }
+//     }
