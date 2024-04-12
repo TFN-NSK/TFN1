@@ -654,6 +654,53 @@
 //        one.innerHTML = <h2>Цена ваших книг ${shop * price} рублей</h2>
 //     }
 // }
+// Домашняя работа урок 8.
+// Задача 1+2 
+// const element = document.querySelector('.element')
+// element.style.color = 'red'
+
+// element.classList.add('text3')
+// element.classList.add('black')
+// element.classList.add('size')
+
+// let button1 = document.querySelector('.button1')
+// let black = document.querySelector('body')
+// let size = document.querySelector('body')
+// let text3 = document.querySelector('body')
+// button1.onclick = function(op){
+//         black.classList.add('black')
+//         size.classList.add('size')
+//         text3.classList.add('text3') 
+//     }
+// Задача 3
+// const element = document.querySelector('.element')
+// element.style.color = 'red'
+
+// element.classList.add('text3')
+// element.classList.add('black')
+// element.classList.add('size')
+
+// let button1 = document.querySelector('.button1')
+// let black = document.querySelector('body')
+// let size = document.querySelector('body')
+// let text3 = document.querySelector('body')
+// button1.onclick = function(op){
+//         if (black.classList.remove('black')){
+//             size.classList.add('size')
+//             text3.classList.add('text3')
+//         }
+//         else if (size.classList.remove('size')){
+//             text3.classList.add('text3')
+//             black.classList.add('black')
+//         }
+//         else if (text3.classList.remove('text3')){
+//             black.classList.add('black')
+//             size.classList.add('size')
+//         } 
+//         else{text3.classList.add('text3');
+//         black.classList.add('black'); size.classList.add('size')}
+
+//     }
 
 // 9 урок 
 //Массивы
