@@ -788,16 +788,55 @@
 //         console.log(resalt);
 //         }
 // Урок 10
-let root =  document.querySelector('.root')
-fetch('https://randomuser.me/api')
-.then(function(response) {return response.json()})
-.then(function(data){
-    console.log(data);
-    // console.log(data.results[0].name.first);
-    // console.log(data.results[0].email);
-    // console.log(data.results[0].phone);
-   root.innerHTML +=`<img src = ${data.results[0].picture.large}>`
-   root.innerHTML +=`<div>
-   ${data.results[0].name.first} ${data.results[0].name.last}
-   </div> `
-})
+// let root =  document.querySelector('.root')
+// fetch('https://randomuser.me/api')
+// .then(function(response) {return response.json()})
+// .then(function(data){
+//     console.log(data);
+//     // console.log(data.results[0].name.first);
+//     // console.log(data.results[0].email);
+//     // console.log(data.results[0].phone);
+//    root.innerHTML +=`<img src = ${data.results[0].picture.large}>`
+//    root.innerHTML +=`<div>
+//    ${data.results[0].name.first} ${data.results[0].name.last}
+//    </div> `
+// })
+
+// Урок 11
+// let a = new Set()
+// a.add(666)
+// a.add(1)
+// a.add(2)
+// a.add('stroka')
+// a.delete(666)
+// a.delete('stroka')
+// console.log(a.size);
+// console.log(a.has(1));
+
+
+// let b = [1,2,3,4,5,6,7,7,7,7,7,7,7]
+// console.log(b);
+
+// for(let i of a){
+//     console.log(i);
+// }
+// let b = [1,2,3,4,5,6,7,7,7,7,7,7,7]
+
+// // console.log(b);
+// // let a = new Set(b)
+
+// for(let i of a){
+//     console.log(i);
+// }
+
+let b = [1,2,3,4,5,6,7,7,7,7,7,7,7]
+
+// for(let i = 0; b.length > i; i++){
+//     console.log(b[i]);
+// }
+// for(let key in b){
+//     console.log(b[key]);
+// }
+// for(let key of b){
+//     console.log(key);
+// }
